@@ -1,0 +1,6 @@
+{
+  "name": "Innovation Smart Plaza - Bandi & Finanza Agevolata",
+  "description": "Piattaforma digitale per la finanza agevolata, monitoraggio bandi PNRR, MIMIT e regionali, gestione pratiche e perizie asseverate.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

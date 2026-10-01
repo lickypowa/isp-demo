@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #1F299C;
+    --primary-dark: #0A0045;
+    --accent: #E8590C;
+    --accent-hover: #CF4D07;
+    --surface-subtle: #F7FAFF;
+    --border-subtle: #D3E0FF;
+    --text-primary: #283759;
+    --text-secondary: #364349;
+    --tag-simest: #7EC8C3;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    color: #283759;
+    background-color: #FFFFFF;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scrollbars for data tables and dialogs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7FAFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #D3E0FF;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A5C2FF;
+}
+
